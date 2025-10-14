@@ -78,6 +78,12 @@ body {
     padding: 0px;
 }
 
+.product{
+    border: none;
+    background: none;
+    padding: 0px;
+}
+
 /* Фильтры для десктопной версии */
 .filters-desktop {
     display: none;
@@ -580,4 +586,5 @@ body {
     }
 
 }
+
 
