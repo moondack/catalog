@@ -72,6 +72,12 @@ body {
     padding: 0px;
 } 
 
+.product button {
+    border: none;
+    background: none;
+    padding: 0px;
+}
+
 /* Фильтры для десктопной версии */
 .filters-desktop {
     display: none;
@@ -574,3 +580,4 @@ body {
     }
 
 }
+
