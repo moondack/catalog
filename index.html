@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="logo">МЕНЮ</div>
+        <div class="search">ПОИСК</div>
+        <div class="cart">КОРЗИНА</div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="main">
+        <section class="catalog">
+            <!-- Фильтры для десктопной версии -->
+            <div class="filters-desktop">
+                <div class="filter-category">
+                    <div class="category-item">Женщинам</div>
+                    <div class="category-item">Мужчинам</div>
+                    <div class="category-item">Детям</div>
+                    <div class="category-item">Распродажа</div>
+                </div>
+                
+                <div class="filter-line"></div>
+                
+                <div class="filter-options">
+                    <div class="filter-group">
+                        <div class="filter-name">Размер</div>
+                        <div class="filter-value">S, M, L</div>
+                        <div class="filter-plus">+</div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <div class="filter-name">Цвет</div>
+                        <div class="filter-value">любая</div>
+                        <div class="filter-plus">+</div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <div class="filter-name">Пол</div>
+                        <div class="filter-value">любая</div>
+                        <div class="filter-plus">+</div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <div class="filter-name">Цена</div>
+                        <div class="filter-value">любая</div>
+                        <div class="filter-plus">+</div>
+                    </div>
+                </div>
+                
+                <div class="filter-reset">
+                    <span>Сбросить все</span>
+                    <div class="reset-icon">×</div>
+                </div>
+            </div>
+
+            <!-- Категории для мобильной версии -->
+            <div class="categories">
+                <div class="category">Женщинам</div>
+                <div class="category">Мужчинам</div>
+                <div class="category">Детям</div>
+            </div>
+
+            <!-- Фильтры для мобильной версии -->
+            <div class="filters-mobile">
+                <div class="filter-btn" id="openFilters">Фильтры</div>
+                <div class="filter-btn">Размеры <span>+</span></div>
+            </div>
+            <div class="divider"></div>
+
+            <!-- Товары -->
+            <div class="products">
+                <!-- Товар 1 -->
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/1.png" alt="Жилет с контрастной окантовкой">
+                    </div>
+                    <div class="product-info">
+                        <div class="name">ЖИЛЕТ С КОНТРАСТНОЙ ОКАНТОВКОЙ</div>
+                        <div class="price">2400 ₽</div>
+                    </div>
+                </div>
+
+                <!-- Товар 2 -->
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/2.png" alt="Оверсайз пиджак">
+                    </div>
+                    <div class="product-info">
+                        <div class="name">ОВЕРСАЙЗ ПИДЖАК</div>
+                        <div class="price">2400 ₽</div>
+                    </div>
+                </div>
+
+                <!-- Товар 3 -->
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/3.png" alt="Жилет с животным принтом">
+                    </div>
+                    <div class="product-info">
+                        <div class="name">ЖИЛЕТ С ЖИВОТНЫМ ПРИНТОМ</div>
+                        <div class="price">2600 ₽</div>
+                    </div>
+                </div>
+
+                <!-- Товар 4 -->
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/4.png" alt="Вязанный свитер">
+                    </div>
+                    <div class="product-info">
+                        <div class="name">ВЯЗАННЫЙ СВИТЕР</div>
+                        <div class="price">1400 ₽</div>
+                    </div>
+                </div>
+
+                <!-- Товар 5 -->
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/5.png" alt="Джинсы Premium">
+                    </div>
+                    <div class="product-info">
+                        <div class="name">ДЖИНСЫ PREMIUM</div>
+                        <div class="price">2000 ₽</div>
+                    </div>
+                </div>
+
+                <!-- Товар 6 -->
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/6.png" alt="Верхняя рубашка с карманами">
+                    </div>
+                    <div class="product-info">
+                        <div class="name">ВЕРХНЯЯ РУБАШКА С КАРМАНАМИ</div>
+                        <div class="price">3200 ₽</div>
+                    </div>
+                </div>
+
+                <!-- Товар 7 -->
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/7.png" alt="Суртюк на молнии">
+                    </div>
+                    <div class="product-info">
+                        <div class="name">СУРТЮК НА МОЛНИИ</div>
+                        <div class="price">4200 ₽</div>
+                    </div>
+                </div>
+
+                <!-- Товар 8 -->
+                <div class="product">
+                    <div class="product-img">
+                        <img src="img/8.png" alt="Фактурный свитер нитками">
+                    </div>
+                    <div class="product-info">
+                        <div class="name">ФАКТУРНЫЙ СВИТЕР НИТКАМИ</div>
+                        <div class="price">1600 ₽</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Кнопка "Больше" -->
+            <div class="load-more">
+                <div class="load-text">БОЛЬШЕ</div>
+                <div class="line-short"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <img src="img/image.png" alt="Фон подвала" class="footer-bg-image">
+            <div class="footer-overlay"></div>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/Z.svg" alt="Z" class="logo-image">
+                </div>
+                <div class="social">
+                    <a href="#">PINTEREST</a>
+                    <a href="#">VK</a>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="legal">
+                    ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ / ИСПОЛЬЗУЕМЫЕ ТЕРМИНЫ
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Окно фильтров -->
+    <div class="modal" id="filtersModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>ФИЛЬТРЫ</h3>
+                <button class="close">&times;</button>
+            </div>
+            <div class="filter-options">
+                <div class="option">
+                    <span>Размер</span>
+                    <span>S, M, L +</span>
+                </div>
+                <div class="option">
+                    <span>Цвет</span>
+                    <span>любая +</span>
+                </div>
+                <div class="option">
+                    <span>Пол</span>
+                    <span>любая +</span>
+                </div>
+                <div class="option">
+                    <span>Цена</span>
+                    <span>любая +</span>
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button class="btn reset">СБРОСИТЬ ВСЕ</button>
+                <button class="btn apply">ПРИМЕНИТЬ</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Открытие окна фильтров
+        document.getElementById('openFilters').addEventListener('click', function() {
+            document.getElementById('filtersModal').style.display = 'block';
+        });
+
+        // Закрытие окна
+        document.querySelector('.close').addEventListener('click', function() {
+            document.getElementById('filtersModal').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
