@@ -186,6 +186,15 @@ cart button{
 
 .product {
     margin-bottom: 30px;
+    border: none;
+  background: none;
+  padding: 0px;
+}
+
+product button{
+        border: none;
+  background: none;
+  padding: 0px;
 }
 
 .product-img {
@@ -571,4 +580,5 @@ cart button{
         padding: 50px 20px;
     }
 }
+
 
