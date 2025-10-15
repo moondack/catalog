@@ -28,6 +28,12 @@ body {
     cursor: pointer;
 }
 
+button{
+     border: 0px;
+  background-color: transponent;
+  padding: 0px;
+}
+
 .burger .line {
     width: 20px;
     height: 2px;
@@ -580,6 +586,7 @@ product button{
         padding: 50px 20px;
     }
 }
+
 
 
 
