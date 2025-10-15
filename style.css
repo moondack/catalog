@@ -41,6 +41,12 @@ body {
     text-transform: uppercase;
 }
 
+logo button{
+    border: none;
+  background: none;
+  padding: 0px;
+}
+
 .search {
     display: none;
     font-size: 12px;
@@ -48,10 +54,22 @@ body {
     text-transform: uppercase;
 }
 
+.search button{
+    border: none;
+  background: none;
+  padding: 0px;
+}
+
 .cart {
     font-size: 12px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
+}
+
+cart button{
+    border: none;
+  background: none;
+  padding: 0px;
 }
 
 .filters-desktop {
@@ -553,3 +571,4 @@ body {
         padding: 50px 20px;
     }
 }
+
