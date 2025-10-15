@@ -67,8 +67,8 @@ logo button{
 }
 
 cart button{
-    border: none;
-  background: none;
+    border: 0px;
+  background-color: transponent;
   padding: 0px;
 }
 
@@ -580,5 +580,6 @@ product button{
         padding: 50px 20px;
     }
 }
+
 
 
