@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Albam Medium';
-    src: url('fonts/Albam-Medium.woff2') format('woff2'),
-         url('fonts/Albam-Medium.woff') format('woff');
+    font-family: 'Abhaya Libre Medium';
+    src: url('fonts/AbhayaLibre-Medium.woff2') format('woff2'),
+         url('fonts/AbhayaLibre-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     background: #FFFFFF;
     color: #000000;
     line-height: 1.5;
@@ -26,13 +26,18 @@ body {
     padding: 20px 16px;
     height: 80px;
     border-bottom: 1px solid #f0f0f0;
+    background: #FFFFFF;
 }
 
 .header button {
-    color: #FFFFFF;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    color: #000000;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     font-size: inherit;
     cursor: pointer;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
 }
 
 .burger {
@@ -43,10 +48,12 @@ body {
 }
 
 button {
-    border: 0px;
-    background-color: transparent;
-    padding: 0px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    color: #000000;
+    border-radius: 5px;
 }
 
 .burger .line {
@@ -60,15 +67,16 @@ button {
     font-size: 12px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .logo button {
-    border: none;
-    background: none;
-    padding: 0px;
-    color: #FFFFFF;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    color: #000000;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    border-radius: 5px;
 }
 
 .search {
@@ -76,30 +84,32 @@ button {
     font-size: 12px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .search button {
-    border: none;
-    background: none;
-    padding: 0px;
-    color: #FFFFFF;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    color: #000000;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    border-radius: 5px;
 }
 
 .cart {
     font-size: 12px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .cart button {
-    border: 0px;
-    background-color: transparent;
-    padding: 0px;
-    color: #FFFFFF;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    color: #000000;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    border-radius: 5px;
 }
 
 .filters-desktop {
@@ -108,19 +118,19 @@ button {
     right: 100px;
     top: 190px;
     width: 270px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-category {
     margin-bottom: 40px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .category-item {
     font-size: 18px;
     margin-bottom: 20px;
     cursor: pointer;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-line {
@@ -135,26 +145,26 @@ button {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-name {
     font-size: 14px;
     color: #383838;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-value {
     font-size: 14px;
     color: #C4C4C4;
     text-align: right;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-plus {
     font-size: 14px;
     color: #C4C4C4;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-reset {
@@ -164,19 +174,19 @@ button {
     gap: 10px;
     margin-top: 40px;
     cursor: pointer;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-reset span {
     font-size: 14px;
     color: #C4C4C4;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .reset-icon {
     font-size: 16px;
     color: #C4C4C4;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .categories {
@@ -185,21 +195,21 @@ button {
     padding: 20px 16px 0;
     overflow-x: auto;
     gap: 20px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .category {
     font-size: 18px;
     white-space: nowrap;
     flex-shrink: 0;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filters-mobile {
     display: flex;
     justify-content: space-between;
     padding: 20px 16px 15px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-btn {
@@ -209,7 +219,7 @@ button {
     align-items: center;
     gap: 5px;
     cursor: pointer;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .divider {
@@ -230,14 +240,14 @@ button {
     border: none;
     background: none;
     padding: 0px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .product button {
     border: none;
     background: none;
     padding: 0px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .product-img {
@@ -259,7 +269,7 @@ button {
     text-transform: uppercase;
     margin-bottom: 5px;
     line-height: 1.4;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .price {
@@ -267,14 +277,14 @@ button {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #313131;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .load-more {
     text-align: center;
     padding: 40px 0 60px;
     cursor: pointer;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .load-text {
@@ -282,7 +292,7 @@ button {
     letter-spacing: 1.5em;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .line-short {
@@ -353,13 +363,13 @@ button {
     gap: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .social a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     font-size: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -385,7 +395,7 @@ button {
     color: #fff;
     max-width: 600px;
     margin: 0 auto;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .modal {
@@ -397,7 +407,7 @@ button {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1000;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .modal-content {
@@ -407,7 +417,7 @@ button {
     margin-left: auto;
     padding: 20px;
     animation: slideIn 0.3s ease;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 @keyframes slideIn {
@@ -422,13 +432,13 @@ button {
     margin-bottom: 30px;
     padding-bottom: 15px;
     border-bottom: 1px solid #eee;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .modal-header h3 {
     font-size: 18px;
     text-transform: uppercase;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .close {
@@ -436,12 +446,12 @@ button {
     border: none;
     font-size: 24px;
     cursor: pointer;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-options {
     margin-bottom: 40px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .option {
@@ -450,14 +460,14 @@ button {
     padding: 15px 0;
     border-bottom: 1px solid #eee;
     font-size: 14px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .modal-actions {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .btn {
@@ -467,7 +477,7 @@ button {
     font-size: 14px;
     cursor: pointer;
     text-transform: uppercase;
-    font-family: 'Albam Medium', 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .btn.apply {
@@ -489,20 +499,20 @@ button {
     .logo {
         font-size: 14px;
         letter-spacing: 1.5em;
-        font-family: 'Albam Medium', 'Arial', sans-serif;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .search {
         display: block;
         font-size: 20px;
         letter-spacing: 1.5em;
-        font-family: 'Albam Medium', 'Arial', sans-serif;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .cart {
         font-size: 14px;
         letter-spacing: 1.5em;
-        font-family: 'Albam Medium', 'Arial', sans-serif;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .filters-desktop {
@@ -531,7 +541,7 @@ button {
 
     .name, .price {
         font-size: 12px;
-        font-family: 'Albam Medium', 'Arial', sans-serif;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .footer-bg {
@@ -574,7 +584,7 @@ button {
 
     .category {
         font-size: 16px;
-        font-family: 'Albam Medium', 'Arial', sans-serif;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .products {
@@ -628,7 +638,7 @@ button {
 
     .legal {
         font-size: 10px;
-        font-family: 'Albam Medium', 'Arial', sans-serif;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 }
 
