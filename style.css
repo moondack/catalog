@@ -29,16 +29,7 @@ body {
     background: #FFFFFF;
 }
 
-.header button {
-    color: #000000;
-    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
-    font-size: inherit;
-    cursor: pointer;
-    background: #FFFFFF;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 1px solid #000000;
-}
+
 
 .burger {
     display: flex;
@@ -47,14 +38,7 @@ body {
     cursor: pointer;
 }
 
-button {
-    border: 1px solid #000000;
-    background-color: #FFFFFF;
-    padding: 10px 20px;
-    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
-    color: #000000;
-    border-radius: 5px;
-}
+
 
 .burger .line {
     width: 20px;
@@ -69,15 +53,48 @@ button {
     text-transform: uppercase;
     font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
-
-.logo button {
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    padding: 10px 20px;
+.header button {
     color: #000000;
     font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
-    border-radius: 5px;
+    font-size: inherit;
+    cursor: pointer;
+    background: #FFFFFF;
+    padding: 0px;
+    border: none;
 }
+
+button {
+    border: 0px;
+    background-color: #FFFFFF;
+    padding: 0px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    color: #000000;
+}
+
+.logo button {
+    border: none;
+    background: #FFFFFF;
+    padding: 0px;
+    color: #000000;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+}
+
+.search button {
+    border: none;
+    background: #FFFFFF;
+    padding: 0px;
+    color: #000000;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+}
+
+.cart button {
+    border: 0px;
+    background-color: #FFFFFF;
+    padding: 0px;
+    color: #000000;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+}
+
 
 .search {
     display: none;
@@ -87,14 +104,7 @@ button {
     font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
-.search button {
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    padding: 10px 20px;
-    color: #000000;
-    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
-    border-radius: 5px;
-}
+
 
 .cart {
     font-size: 12px;
@@ -103,14 +113,7 @@ button {
     font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
-.cart button {
-    border: 1px solid #000000;
-    background-color: #FFFFFF;
-    padding: 10px 20px;
-    color: #000000;
-    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
-    border-radius: 5px;
-}
+
 
 .filters-desktop {
     display: none;
@@ -647,3 +650,4 @@ button {
         padding: 50px 20px;
     }
 }
+
