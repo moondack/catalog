@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Abhaya Libre Medium';
+    src: url('fonts/AbhayaLibre-Medium.woff2') format('woff2'),
+         url('fonts/AbhayaLibre-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +13,11 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     background: #FFFFFF;
     color: #000000;
     line-height: 1.5;
 }
-
 
 .header {
     display: flex;
@@ -19,6 +26,17 @@ body {
     padding: 20px 16px;
     height: 80px;
     border-bottom: 1px solid #f0f0f0;
+    background: #FFFFFF;
+}
+
+.header button {
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    font-size: inherit;
+    cursor: pointer;
+    background: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .burger {
@@ -28,10 +46,13 @@ body {
     cursor: pointer;
 }
 
-button{
-     border: 0px;
-  background-color: transponent;
-  padding: 0px;
+button {
+    border: 0px;
+    background-color: #000000;
+    padding: 10px 20px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    color: #FFFFFF;
+    border-radius: 5px;
 }
 
 .burger .line {
@@ -41,16 +62,20 @@ button{
 }
 
 .logo {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
-logo button{
+.logo button {
     border: none;
-  background: none;
-  padding: 0px;
+    background: #000000;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    border-radius: 5px;
 }
 
 .search {
@@ -58,24 +83,32 @@ logo button{
     font-size: 12px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
-.search button{
+.search button {
     border: none;
-  background: none;
-  padding: 0px;
+    background: #000000;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    border-radius: 5px;
 }
 
 .cart {
     font-size: 12px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
-cart button{
+.cart button {
     border: 0px;
-  background-color: transponent;
-  padding: 0px;
+    background-color: #000000;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
+    border-radius: 5px;
 }
 
 .filters-desktop {
@@ -84,16 +117,19 @@ cart button{
     right: 100px;
     top: 190px;
     width: 270px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-category {
     margin-bottom: 40px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .category-item {
     font-size: 18px;
     margin-bottom: 20px;
     cursor: pointer;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-line {
@@ -108,22 +144,26 @@ cart button{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-name {
     font-size: 14px;
     color: #383838;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-value {
     font-size: 14px;
     color: #C4C4C4;
     text-align: right;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-plus {
     font-size: 14px;
     color: #C4C4C4;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-reset {
@@ -133,18 +173,20 @@ cart button{
     gap: 10px;
     margin-top: 40px;
     cursor: pointer;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-reset span {
     font-size: 14px;
     color: #C4C4C4;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .reset-icon {
     font-size: 16px;
     color: #C4C4C4;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
-
 
 .categories {
     display: flex;
@@ -152,19 +194,21 @@ cart button{
     padding: 20px 16px 0;
     overflow-x: auto;
     gap: 20px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .category {
     font-size: 18px;
     white-space: nowrap;
     flex-shrink: 0;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
-
 
 .filters-mobile {
     display: flex;
     justify-content: space-between;
     padding: 20px 16px 15px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-btn {
@@ -174,6 +218,7 @@ cart button{
     align-items: center;
     gap: 5px;
     cursor: pointer;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .divider {
@@ -182,7 +227,6 @@ cart button{
     margin: 0 16px;
 }
 
-/* Товары */
 .products {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -193,14 +237,16 @@ cart button{
 .product {
     margin-bottom: 30px;
     border: none;
-  background: none;
-  padding: 0px;
+    background: none;
+    padding: 0px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
-product button{
-        border: none;
-  background: none;
-  padding: 0px;
+.product button {
+    border: none;
+    background: none;
+    padding: 0px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .product-img {
@@ -222,6 +268,7 @@ product button{
     text-transform: uppercase;
     margin-bottom: 5px;
     line-height: 1.4;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .price {
@@ -229,13 +276,14 @@ product button{
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #313131;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
-/* Кнопка "Больше" */
 .load-more {
     text-align: center;
     padding: 40px 0 60px;
     cursor: pointer;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .load-text {
@@ -243,6 +291,7 @@ product button{
     letter-spacing: 1.5em;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .line-short {
@@ -252,7 +301,6 @@ product button{
     margin: 0 auto;
 }
 
-/* Подвал */
 .footer {
     background: #000;
     position: relative;
@@ -278,7 +326,7 @@ product button{
     height: 100%;
     object-fit: cover;
     z-index: 1;
-    filter: brightness(1.2); 
+    filter: brightness(1.2);
 }
 
 .footer-overlay {
@@ -287,7 +335,7 @@ product button{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(0, 0, 0, 0.6);
     z-index: 2;
 }
 
@@ -314,12 +362,13 @@ product button{
     gap: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .social a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Gotham Pro', sans-serif;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     font-size: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -345,9 +394,9 @@ product button{
     color: #fff;
     max-width: 600px;
     margin: 0 auto;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
-/* Модальное окно */
 .modal {
     display: none;
     position: fixed;
@@ -357,6 +406,7 @@ product button{
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1000;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .modal-content {
@@ -366,6 +416,7 @@ product button{
     margin-left: auto;
     padding: 20px;
     animation: slideIn 0.3s ease;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 @keyframes slideIn {
@@ -380,11 +431,13 @@ product button{
     margin-bottom: 30px;
     padding-bottom: 15px;
     border-bottom: 1px solid #eee;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .modal-header h3 {
     font-size: 18px;
     text-transform: uppercase;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .close {
@@ -392,10 +445,12 @@ product button{
     border: none;
     font-size: 24px;
     cursor: pointer;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .filter-options {
     margin-bottom: 40px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .option {
@@ -404,12 +459,14 @@ product button{
     padding: 15px 0;
     border-bottom: 1px solid #eee;
     font-size: 14px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .modal-actions {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .btn {
@@ -419,6 +476,7 @@ product button{
     font-size: 14px;
     cursor: pointer;
     text-transform: uppercase;
+    font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
 }
 
 .btn.apply {
@@ -431,7 +489,6 @@ product button{
     color: #333;
 }
 
-
 @media (min-width: 1700px) {
     .header {
         padding: 0 100px;
@@ -441,17 +498,20 @@ product button{
     .logo {
         font-size: 14px;
         letter-spacing: 1.5em;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .search {
         display: block;
         font-size: 20px;
         letter-spacing: 1.5em;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .cart {
         font-size: 14px;
         letter-spacing: 1.5em;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .filters-desktop {
@@ -480,6 +540,7 @@ product button{
 
     .name, .price {
         font-size: 12px;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .footer-bg {
@@ -495,7 +556,6 @@ product button{
         width: 500px;
     }
 }
-
 
 @media (min-width: 768px) and (max-width: 1699px) {
     .products {
@@ -523,6 +583,7 @@ product button{
 
     .category {
         font-size: 16px;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 
     .products {
@@ -548,7 +609,6 @@ product button{
         height: 470px;
     }
 }
-
 
 @media (max-width: 767px) {
     .footer-bg {
@@ -577,16 +637,12 @@ product button{
 
     .legal {
         font-size: 10px;
+        font-family: 'Abhaya Libre Medium', 'Arial', sans-serif;
     }
 }
-
 
 @media (min-width: 768px) and (max-width: 1699px) {
     .footer-bg {
         padding: 50px 20px;
     }
 }
-
-
-
-
